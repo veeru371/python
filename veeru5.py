@@ -2,6 +2,7 @@ def number_of_factors(val):
     count=0
     for ii in range(1,val+1):
         if((val%ii)==0):
+            print(ii)
             count=count+1
     return count
 val1=int(input('enter a number'))
